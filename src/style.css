@@ -1,0 +1,27 @@
+@import "tailwindcss";
+body{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #F0F9FF;
+}
+.header{
+    padding: 1rem 10rem;
+}
+
+@media  (max-width: 1650px){
+    .header{
+        padding: 1rem 10rem
+    }
+    
+}
+@media  (max-width: 1270px){
+    .header{
+        padding: 1rem 5rem
+    }
+    
+}
+
